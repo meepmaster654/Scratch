@@ -1,1 +1,37 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(to right, red, blue, green);
+}
 
+body > div {
+  display:flex;
+  align-items:center;
+}
+h1 {
+    font-family: Sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+body > div > button {
+  margin-left: 20px;
+  padding: 0.5vmax 1vmax 0.5vmax 1vmax;
+  font-size: 2em;
+  background: #4d97ff;
+  border: none;
+  color: white;
+  border-radius: .25rem;
+}
+
+body > div > button:hover {
+  background-color: #2c548d;
+}
+
+body > div > iframe {
+  width: 658px;
+  height: 536px;
+  background: #220000;
+}
